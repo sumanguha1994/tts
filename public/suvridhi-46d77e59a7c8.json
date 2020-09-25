@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "suvridhi-cda9a",
+  "private_key_id": "46d77e59a7c81f53bf241134c3dfbfb9a1426e94",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQD1tw/e08LV+Eo+\nlVeA+GDa8WEcSG28roD6HQQsyCDHkfM6TQfpEPOgMPRzPJ+6ERKFcoqpF2Fkk6FT\niRw9xv6D0dLTKlnhfb1qctZkEUSirPdKPGSws/NfGFUzBRP9MvDy8d0MJMwbf1XA\nGahN8Sc6xyDnm3qSYoogkfmxLCs/yBhIk5/4tMRuhCb5MMjNniOWOURw38nUysk3\nNMC0m0qmO6gBmGuaEBrqxd1D8ehJPKOyiQlxlspUW2UdD8ygWSyJVwMbVRoJqq/W\ng+oHKYEm3NSXqik7Vn+tuk6RLyUXc8D/ACvWvmO1+HomyBPd2a3U6WSVqcSBkMoS\n/GarVOzrAgMBAAECggEADMlug3+Mo5rsri4SZC1IyQwHrDOetlN0dc+dwIDXp9sS\nB8Yrc7cEnqD9j6OngkTSLGymB5+mW1gNbK31cMeSxiRcrs2E6OWkvk3kl0eIxVhv\n9AaJjOKIdznqcSHCBQqqHFJ22ONvVbz+JuWO6yNyEa58KWFfcw+6tXAzSMOOKp7y\nfJ9IpAU2xbTGW4DSPO0GPuGioZKzNMOS8OU2F3ePXaRIGrZnbYOf1oQ3ZzJf/+AR\nJmQaAv/z2dhlYROkatMkUs5SmQYRGgWOkL0/YrTnwXg0zkol/+ef+oJy+gWYIM7T\nYXPRUcfCOLwMRXchV6GWe9O6wpwz2R325EirOhUZ4QKBgQD/7NX4FB6xHKIfyGCB\n8+jooP57ZYOUck+EZ78FhHtngtlisKXHmjs+4YkbCE6yxeaZu2B8LF+2iIIpA53H\nDFiHJdQct5Mqggl3AhtMV5/xLxngHAeydkz5rAik8ejUTeIQe8owo4FyG27LXtin\njSES6+17LuqqmnCRzRZ5WsUHSwKBgQD1yXYtQXybfSceQGAnMW+iedYM/2aCNrL8\ntyDWMnCqtrhZSICvfXHANwVxn1/dCId3LyxswsJxE41UdYuUuXREtl6AgQ6aNwA+\njLz6BAkiMtajYODbRiwsaN9gZqwgV42MAuocQftgbwTcCuXxMYm4V0WnZWXuJ7GK\nL1ZemjYM4QKBgGNrKrfjgQTGnciA+9Sf3wO3vwRKrDHXskI6Vz+adqIAd9hZzRzc\nMlW8IZnpwUC7llh0LQgv6MKtBvtN11YC2sUtkdfSDI5/05Nysw4WICD+bivcV7Uh\nNcfr57PD8fG/i6lhnWsFqXydYY4Je1qjfYyvMCMhV7IMqtxI8okUFOQ/AoGBAMTL\nzB2sQ5NUABBOxy5afOIA34yEqpU0KtgB4P7gYCmwJ6cFUFQzAvM+mtNBIsad36lk\nUhO7VWiomQ65F0u7ugaSZtRJgWGlDEMI+P7OYGnLfuRN23x2kUP1rHVJgCRdNe6X\nHtAFXLr36VIuP7KBUZ4R8ql3nMe1bIgSIvuYShLBAoGBAIYFjKs2KaHdiH49YGKP\nElbOQeLy6D+HCp38V8Z5YMcBECgwrH/DwAgCnp5tGanHMshqmI9be+gQJfqigHs6\nzuy1ZXJM0N1KfKalrYotGmjb5bJQ2tgwaftUrn7evEw/5jzoUkUNxEn0fQlf0a1D\nloqBN70G4jYA8YMhthMatT86\n-----END PRIVATE KEY-----\n",
+  "client_email": "texttospeech@suvridhi-cda9a.iam.gserviceaccount.com",
+  "client_id": "108400709116269514019",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/texttospeech%40suvridhi-cda9a.iam.gserviceaccount.com"
+}
