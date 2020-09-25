@@ -24,7 +24,7 @@
             <br />
             <div class="row">
                 <div class="col-md-2">
-					<button type="button" class="btn btn-info" onclick="textspeech()">Speak</button></div>
+					<button type="button" class="btn btn-info" onclick="textspeech()">Speak</button>
                 </div>
                 <div class="col-md-4 speech"></div>
 			</div>
@@ -52,8 +52,8 @@
             $.get('text-to-speech/'+text, function(data){
                 $('.speech').show();
 				let html;
-				html = "<audio controls='controls' autoplay>";
-				html += "<source src='{{asset('public/audio')}}"+'/'+data.file+"'>"
+				html = "<audio controls='controls' style='width: 235px;height: 40px;'>";
+				html += "<source src='{{asset('public/audio')}}"+'/'+data.file+"' type='audio/mp3'>"
 				html += "</audio>";
 				$('.speech').append(html);
             });
