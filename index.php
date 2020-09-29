@@ -29,6 +29,9 @@
         }
     </style>
     <body>
+        <div class="container mm" id="button">
+            <button type="button" class="btn btn-warning" onclick="starchat()">Start Chat</button>
+        </div>
         <div class="container mm" id="fcontainer">
             <h3>Hi There I am LISA.</h3>
             <h3>Locomotive's Interactive Smart Assistance</h3>
@@ -731,619 +734,328 @@
             </div>
         </div>
         <!-- 50up -->
-        <!-- <div class="container mm">
-            <div class="row">
-                <div class="col-md-6 fspeech">
-                    <audio controls id="fspeechaudio" allow="autoplay">
-                        <source src="http://localhost/tts/audio/1601017618.mp3" type='audio/mp3'>
-                    </audio>
-                </div> -->
-                <!--<div class="col-md-6 sspeech">
-                    <audio controls id="autoaudio" autoplay="true" >
-                        <source src="http://localhost/tts/audio/1601033983.mp3" type='audio/mp3'>
-                    </audio>
-                </div>
-                <div class="col-md-6 forstartaproject_speech">
-                    <audio controls id="autoaudio" autoplay="true" >
-                        <source src="http://localhost/tts/audio/1601034710.mp3" type='audio/mp3'>
-                    </audio>
-                </div>
-                <div class="col-md-6 forjoinateam_speech">
-                    <audio controls id="autoaudio" autoplay="true" >
-                        <source src="http://localhost/tts/audio/1601035942.mp3" type='audio/mp3'>
-                    </audio>
-                </div>
-                <div class="col-md-6 forapplyanintern_speech">
-                    <audio controls id="autoaudio" autoplay="true" >
-                        <source src="http://localhost/tts/audio/1601036487.mp3" type='audio/mp3'>
-                    </audio>
-                </div>
-                <div class="col-md-6 fordropaquickword_speech">
-                    <audio controls id="autoaudio" autoplay="true" >
-                        <source src="http://localhost/tts/audio/1601036923.mp3" type='audio/mp3'>
-                    </audio>
-                </div>
-                <div class="col-md-6 forcompletewebsite_speech">
-                    <audio controls id="autoaudio" autoplay="true" >
-                        <source src="http://localhost/tts/audio/1601037402.mp3" type='audio/mp3'>
-                    </audio>
-                </div>
-                <div class="col-md-6 forwebdesign_speech">
-                    <audio controls id="autoaudio" autoplay="true" >
-                        <source src="http://localhost/tts/audio/1601038072.mp3" type='audio/mp3'>
-                    </audio>
-                </div>
-                <div class="col-md-6 forbranding_speech">
-                    <audio controls id="autoaudio" autoplay="true" >
-                        <source src="http://localhost/tts/audio/1601038420.mp3" type='audio/mp3'>
-                    </audio>
-                </div>
-                <div class="col-md-6 forbrandingweb_speech">
-                    <audio controls id="autoaudio" autoplay="true" >
-                        <source src="http://localhost/tts/audio/1601040061.mp3" type='audio/mp3'>
-                    </audio>
-                </div>
-                <div class="col-md-6 fordegitalcamaign_speech">
-                    <audio controls id="autoaudio" autoplay="true" >
-                        <source src="http://localhost/tts/audio/1601040459.mp3" type='audio/mp3'>
-                    </audio>
-                </div>
-                <div class="col-md-6 forbackenddeveloper_speech">
-                    <audio controls id="autoaudio" autoplay="true" >
-                        <source src="http://localhost/tts/audio/1601041100.mp3" type='audio/mp3'>
-                    </audio>
-                </div>
-                <div class="col-md-6 forfrontenddeveloper_speech">
-                    <audio controls id="autoaudio" autoplay="true" >
-                        <source src="http://localhost/tts/audio/1601041344.mp3" type='audio/mp3'>
-                    </audio>
-                </div>
-                <div class="col-md-6 forprojectmanager_speech">
-                    <audio controls id="autoaudio" autoplay="true" >
-                        <source src="http://localhost/tts/audio/1601041978.mp3" type='audio/mp3'>
-                    </audio>
-                </div>
-                <div class="col-md-6 forinteractivedesigner_speech">
-                    <audio controls id="autoaudio" autoplay="true" >
-                        <source src="http://localhost/tts/audio/1601042314.mp3" type='audio/mp3'>
-                    </audio>
-                </div>
-                <div class="col-md-6 forartdirector_speech">
-                    <audio controls id="autoaudio" autoplay="true" >
-                        <source src="http://localhost/tts/audio/1601041978.mp3" type='audio/mp3'>
-                    </audio>
-                </div>
-                <div class="col-md-6 forawardwebsite_speech">
-                    <audio controls id="autoaudio" autoplay="true" >
-                        <source src="http://localhost/tts/audio/1601043179.mp3" type='audio/mp3'>
-                    </audio>
-                </div>
-                <div class="col-md-6 forprojectwedid_speech">
-                    <audio controls id="autoaudio" autoplay="true" >
-                        <source src="http://localhost/tts/audio/1601285896.mp3" type='audio/mp3'>
-                    </audio>
-                </div> 
-                <div class="col-md-6 foranartical_speech">
-                    <audio controls id="autoaudio" autoplay="true" >
-                        <source src="http://localhost/tts/audio/1601286670.mp3" type='audio/mp3'>
-                    </audio>
-                </div>
-                <div class="col-md-6 forafriend_speech">
-                    <audio controls id="autoaudio" autoplay="true" >
-                        <source src="http://localhost/tts/audio/1601287175.mp3" type='audio/mp3'>
-                    </audio>
-                </div> 
-                <div class="col-md-6 forwordonstreet_speech">
-                    <audio controls id="autoaudio" autoplay="true" >
-                        <source src="http://localhost/tts/audio/1601287755.mp3" type='audio/mp3'>
-                    </audio>
-                </div>
-                <div class="col-md-6 for30to50_speech">
-                    <audio controls id="autoaudio" autoplay="true" >
-                        <source src="http://localhost/tts/audio/1601289592.mp3" type='audio/mp3'>
-                    </audio>
-                </div>
-                <div class="col-md-6 for50to75_speech">
-                    <audio controls id="autoaudio" autoplay="true" >
-                        <source src="http://localhost/tts/audio/1601289526.mp3" type='audio/mp3'>
-                    </audio>
-                </div> 
-                <div class="col-md-6 for75to100_speech">
-                    <audio controls id="autoaudio" autoplay="true" >
-                        <source src="http://localhost/tts/audio/1601290725.mp3" type='audio/mp3'>
-                    </audio>
-                </div>
-                <div class="col-md-6 for100up_speech">
-                    <audio controls id="autoaudio" autoplay="true" >
-                        <source src="http://localhost/tts/audio/1601291948.mp3" type='audio/mp3'>
-                    </audio>
-                </div>
-                <div class="col-md-6 for1mildoloars_speech">
-                    <audio controls id="autoaudio" autoplay="true" >
-                        <source src="http://localhost/tts/audio/1601292412.mp3" type='audio/mp3'>
-                    </audio>
-                </div>
-                <div class="col-md-6 for15to30_speech">
-                    <audio controls id="autoaudio" autoplay="true" >
-                        <source src="http://localhost/tts/audio/1601293041.mp3" type='audio/mp3'>
-                    </audio>
-                </div>
-                <div class="col-md-6 for50up_speech">
-                    <audio controls id="autoaudio" autoplay="true" >
-                        <source src="http://localhost/tts/audio/1601294750.mp3" type='audio/mp3'>
-                    </audio>
-                </div> -->
-            </div>
-        </div>
     </body>
     <script>
         $(document).ready(function(){
+            $('#fcontainer').hide();
             $('#scontainer').hide();
-            $('.sspeech').hide();
             $('#forstartaproject').hide();
-            $('.forstartaproject_speech').hide();
             $('#forjoinateam').hide();
-            $('.forjoinateam_speech').hide();
             $('#forapplyanintern').hide();
-            $('.forapplyanintern_speech').hide();
             $('#fordropaquickword').hide();
-            $('.fordropaquickword_speech').hide();
             $('#forcompletewebsite').hide();
-            $('.forcompletewebsite_speech').hide();
             $('#forwebdesign').hide();
-            $('.forwebdesign_speech').hide();
             $('#forbranding').hide();
-            $('.forbranding_speech').hide();
             $('#forbrandingweb').hide();
-            $('.forbrandingweb_speech').hide();
             $('#fordegitalcamaign').hide();
-            $('.fordegitalcamaign_speech').hide();
             $('#forbackenddeveloper').hide();
-            $('.forbackenddeveloper_speech').hide();
             $('#forfrontenddeveloper').hide();
-            $('.forfrontenddeveloper_speech').hide();
             $('#forprojectmanager').hide();
-            $('.forprojectmanager_speech').hide();
             $('#forinteractivedesigner').hide();
-            $('.forinteractivedesigner_speech').hide();
             $('#forartdirector').hide();
-            $('.forartdirector_speech').hide();
             $('#forawardwebsite').hide();
-            $('.forawardwebsite_speech').hide();
             $('#forprojectwedid').hide();
-            $('.forprojectwedid_speech').hide();
             $('#foranartical').hide();
-            $('.foranartical_speech').hide();
             $('#forafriend').hide();
-            $('.forafriend_speech').hide();
             $('#forwordonstreet').hide();
-            $('.forwordonstreet_speech').hide();
             $('#for30to50').hide();
-            $('.for30to50_speech').hide();
             $('#for50to75').hide();
-            $('.for50to75_speech').hide();
             $('#for75to100').hide();
-            $('.for75to100_speech').hide();
             $('#for100up').hide();
-            $('.for100up_speech').hide();
             $('#for1mildoloars').hide();
-            $('.for1mildoloars_speech').hide();
             $('#for15to30').hide();
-            $('.for15to30_speech').hide();
             $('#for50up').hide();
-            $('.for50up_speech').hide();
+        });
+        function starchat()
+        {
+            $('#button').hide();
+            $('#fcontainer').show();
+            let music = new Audio("http://localhost/tts/audio/1601017618.mp3");
+            music.play();
             setTimeout(() => {
-                // var audio = document.querySelector("#fspeechaudio");
-                $("#fspeechaudio")[0].play();
-                console.log($("#fspeechaudio")[0]);
-                // audio.play();
-            }, 2000);
-            setTimeout(() => {
+                let music = new Audio("http://localhost/tts/audio/1601033983.mp3");
+                music.play();
                 $('#fcontainer').hide();
-                $('.fspeech').hide();
                 $('#scontainer').show();
-                $('.sspeech').show();
                 $('#forstartaproject').hide();
-                $('.forstartaproject_speech').hide();
                 $('#forjoinateam').hide();
-                $('.forjoinateam_speech').hide();
                 $('#forapplyanintern').hide();
-                $('.forapplyanintern_speech').hide();
                 $('#fordropaquickword').hide();
-                $('.fordropaquickword_speech').hide();
                 $('#forcompletewebsite').hide();
-                $('.forcompletewebsite_speech').hide();
                 $('#forwebdesign').hide();
-                $('.forwebdesign_speech').hide();
                 $('#forbranding').hide();
-                $('.forbranding_speech').hide();
                 $('#forbrandingweb').hide();
-                $('.forbrandingweb_speech').hide();
                 $('#fordegitalcamaign').hide();
-                $('.fordegitalcamaign_speech').hide();
                 $('#forbackenddeveloper').hide();
-                $('.forbackenddeveloper_speech').hide();
                 $('#forfrontenddeveloper').hide();
-                $('.forfrontenddeveloper_speech').hide();
                 $('#forprojectmanager').hide();
-                $('.forprojectmanager_speech').hide();
                 $('#forinteractivedesigner').hide();
-                $('.forinteractivedesigner_speech').hide();
                 $('#forartdirector').hide();
-                $('.forartdirector_speech').hide();
                 $('#forawardwebsite').hide();
-                $('.forawardwebsite_speech').hide();
                 $('#forprojectwedid').hide();
-                $('.forprojectwedid_speech').hide();
                 $('#foranartical').hide();
-                $('.foranartical_speech').hide();
                 $('#forafriend').hide();
-                $('.forafriend_speech').hide();
                 $('#forwordonstreet').hide();
-                $('.forwordonstreet_speech').hide();
                 $('#for30to50').hide();
-                $('.for30to50_speech').hide();
                 $('#for50to75').hide();
-                $('.for50to75_speech').hide();
                 $('#for75to100').hide();
-                $('.for75to100_speech').hide();
                 $('#for100up').hide();
-                $('.for100up_speech').hide();
                 $('#for1mildoloars').hide();
-                $('.for1mildoloars_speech').hide();
                 $('#for15to30').hide();
-                $('.for15to30_speech').hide();
                 $('#for50up').hide();
-                $('.for50up_speech').hide();
-            }, 6000);
-            $('#startaproject').on('click', function(){
-                $('#scontainer').hide();
-                $('.sspeech').hide();
-                $('#forstartaproject').show();
-                $('.forstartaproject_speech').show();
-            });
-            $('#joinateam').on('click', function(){
-                $('#scontainer').hide();
-                $('.sspeech').hide();
-                $('#forjoinateam').show();
-                $('.forjoinateam_speech').show();
-            });
-            $('#applyanintern').on('click', function(){
-                $('#scontainer').hide();
-                $('.sspeech').hide();
-                $('#forapplyanintern').show();
-                $('.forapplyanintern_speech').show();
-            });
-            $('#dropaquickword').on('click', function(){
-                $('#scontainer').hide();
-                $('.sspeech').hide();
-                $('#fordropaquickword').show();
-                $('.fordropaquickword_speech').show();
-            });
-            $('#completewebsite').on('click', function(){
-                $('#scontainer').hide();
-                $('.sspeech').hide();
-                $('#forstartaproject').hide();
-                $('.forstartaproject_speech').hide();
-                $('#forcompletewebsite').show();
-                $('.forcompletewebsite_speech').show();
-            });
-            $('#webdesign').on('click', function(){
-                $('#scontainer').hide();
-                $('.sspeech').hide();
-                $('#forstartaproject').hide();
-                $('.forstartaproject_speech').hide();
-                $('#forwebdesign').show();
-                $('.forwebdesign_speech').show();
-            });
-            $('#branding').on('click', function(){
-                $('#scontainer').hide();
-                $('.sspeech').hide();
-                $('#forstartaproject').hide();
-                $('.forstartaproject_speech').hide();
-                $('#forbranding').show();
-                $('.forbranding_speech').show();
-            });
-            $('#brandingweb').on('click', function(){
-                $('#scontainer').hide();
-                $('.sspeech').hide();
-                $('#forstartaproject').hide();
-                $('.forstartaproject_speech').hide();
-                $('#forbrandingweb').show();
-                $('.forbrandingweb_speech').show();
-            });
-            $('#degitalcamaign').on('click', function(){
-                $('#scontainer').hide();
-                $('.sspeech').hide();
-                $('#forstartaproject').hide();
-                $('.forstartaproject_speech').hide();
-                $('#fordegitalcamaign').show();
-                $('.fordegitalcamaign_speech').show();
-            }); 
-            $('#backenddeveloper').on('click', function(){
-                $('#scontainer').hide();
-                $('.sspeech').hide();
-                $('#forjoinateam').hide();
-                $('.forjoinateam_speech').hide();
-                $('#forbackenddeveloper').show();
-                $('.forbackenddeveloper_speech').show();
-            });
-            $('#frontenddeveloper').on('click', function(){
-                $('#scontainer').hide();
-                $('.sspeech').hide();
-                $('#forjoinateam').hide();
-                $('.forjoinateam_speech').hide();
-                $('#forfrontenddeveloper').show();
-                $('.forfrontenddeveloper_speech').show();
-            });
-            $('#projectmanager').on('click', function(){
-                $('#scontainer').hide();
-                $('.sspeech').hide();
-                $('#forjoinateam').hide();
-                $('.forjoinateam_speech').hide();
-                $('#forprojectmanager').show();
-                $('.forprojectmanager_speech').show();
-            });
-            $('#interactivedesigner').on('click', function(){
-                $('#scontainer').hide();
-                $('.sspeech').hide();
-                $('#forjoinateam').hide();
-                $('.forjoinateam_speech').hide();
-                $('#forinteractivedesigner').show();
-                $('.forinteractivedesigner_speech').show();
-            });
-            $('#artdirector').on('click', function(){
-                $('#scontainer').hide();
-                $('.sspeech').hide();
-                $('#forjoinateam').hide();
-                $('.forjoinateam_speech').hide();
-                $('#forartdirector').show();
-                $('.forartdirector_speech').show();
-            });
-            $('.awardwebsite').on('click', function(){
-                $('#scontainer').hide();
-                $('.sspeech').hide();
-                $('#forbackenddeveloper').hide();
-                $('.forbackenddeveloper_speech').hide();
-                $('#forfrontenddeveloper').hide();
-                $('.forfrontenddeveloper_speech').hide();
-                $('#forprojectmanager').hide();
-                $('.forprojectmanager_speech').hide();
-                $('#forinteractivedesigner').hide();
-                $('.forinteractivedesigner_speech').hide();
-                $('#forartdirector').hide();
-                $('.forartdirector_speech').hide();
-                $('#fordropaquickword').hide();
-                $('.fordropaquickword_speech').hide();
-                $('#forapplyanintern').hide();
-                $('.forapplyanintern_speech').hide();
-                $('#for30to50').hide();
-                $('.for30to50_speech').hide();
-                $('#for50to75').hide();
-                $('.for50to75_speech').hide();
-                $('#for75to100').hide();
-                $('.for75to100_speech').hide();
-                $('#for100up').hide();
-                $('.for100up_speech').hide();
-                $('#for1mildoloars').hide();
-                $('.for1mildoloars_speech').hide();
-                $('#for15to30').hide();
-                $('.for15to30_speech').hide();
-                $('#for50up').hide();
-                $('.for50up_speech').hide();
-                $('#forawardwebsite').show();
-                $('.forawardwebsite_speech').show();
-            });
-            $('.projectwedid').on('click', function(){
-                $('#scontainer').hide();
-                $('.sspeech').hide();
-                $('#forbackenddeveloper').hide();
-                $('.forbackenddeveloper_speech').hide();
-                $('#forfrontenddeveloper').hide();
-                $('.forfrontenddeveloper_speech').hide();
-                $('#forprojectmanager').hide();
-                $('.forprojectmanager_speech').hide();
-                $('#forinteractivedesigner').hide();
-                $('.forinteractivedesigner_speech').hide();
-                $('#forartdirector').hide();
-                $('.forartdirector_speech').hide();
-                $('#fordropaquickword').hide();
-                $('.fordropaquickword_speech').hide();
-                $('#forapplyanintern').hide();
-                $('.forapplyanintern_speech').hide();
-                $('#for30to50').hide();
-                $('.for30to50_speech').hide();
-                $('#for50to75').hide();
-                $('.for50to75_speech').hide();
-                $('#for75to100').hide();
-                $('.for75to100_speech').hide();
-                $('#for100up').hide();
-                $('.for100up_speech').hide();
-                $('#for1mildoloars').hide();
-                $('.for1mildoloars_speech').hide();
-                $('#for15to30').hide();
-                $('.for15to30_speech').hide();
-                $('#for50up').hide();
-                $('.for50up_speech').hide();
-                $('#forprojectwedid').show();
-                $('.forprojectwedid_speech').show();
-            });
-            $('.anartical').on('click', function(){
-                $('#scontainer').hide();
-                $('.sspeech').hide();
-                $('#forbackenddeveloper').hide();
-                $('.forbackenddeveloper_speech').hide();
-                $('#forfrontenddeveloper').hide();
-                $('.forfrontenddeveloper_speech').hide();
-                $('#forprojectmanager').hide();
-                $('.forprojectmanager_speech').hide();
-                $('#forinteractivedesigner').hide();
-                $('.forinteractivedesigner_speech').hide();
-                $('#forartdirector').hide();
-                $('.forartdirector_speech').hide();
-                $('#fordropaquickword').hide();
-                $('.fordropaquickword_speech').hide();
-                $('#forapplyanintern').hide();
-                $('.forapplyanintern_speech').hide();
-                $('#for30to50').hide();
-                $('.for30to50_speech').hide();
-                $('#for50to75').hide();
-                $('.for50to75_speech').hide();
-                $('#for75to100').hide();
-                $('.for75to100_speech').hide();
-                $('#for100up').hide();
-                $('.for100up_speech').hide();
-                $('#for1mildoloars').hide();
-                $('.for1mildoloars_speech').hide();
-                $('#for15to30').hide();
-                $('.for15to30_speech').hide();
-                $('#for50up').hide();
-                $('.for50up_speech').hide();
-                $('#foranartical').show();
-                $('.foranartical_speech').show();
-            });
-            $('.afriend').on('click', function(){
-                $('#scontainer').hide();
-                $('.sspeech').hide();
-                $('#forbackenddeveloper').hide();
-                $('.forbackenddeveloper_speech').hide();
-                $('#forfrontenddeveloper').hide();
-                $('.forfrontenddeveloper_speech').hide();
-                $('#forprojectmanager').hide();
-                $('.forprojectmanager_speech').hide();
-                $('#forinteractivedesigner').hide();
-                $('.forinteractivedesigner_speech').hide();
-                $('#forartdirector').hide();
-                $('.forartdirector_speech').hide();
-                $('#fordropaquickword').hide();
-                $('.fordropaquickword_speech').hide();
-                $('#forapplyanintern').hide();
-                $('.forapplyanintern_speech').hide();
-                $('#for30to50').hide();
-                $('.for30to50_speech').hide();
-                $('#for50to75').hide();
-                $('.for50to75_speech').hide();
-                $('#for75to100').hide();
-                $('.for75to100_speech').hide();
-                $('#for100up').hide();
-                $('.for100up_speech').hide();
-                $('#for1mildoloars').hide();
-                $('.for1mildoloars_speech').hide();
-                $('#for15to30').hide();
-                $('.for15to30_speech').hide();
-                $('#for50up').hide();
-                $('.for50up_speech').hide();
-                $('#forafriend').show();
-                $('.forafriend_speech').show();
-            });
-            $('.wordonstreet').on('click', function(){
-                $('#scontainer').hide();
-                $('.sspeech').hide();
-                $('#forbackenddeveloper').hide();
-                $('.forbackenddeveloper_speech').hide();
-                $('#forfrontenddeveloper').hide();
-                $('.forfrontenddeveloper_speech').hide();
-                $('#forprojectmanager').hide();
-                $('.forprojectmanager_speech').hide();
-                $('#forinteractivedesigner').hide();
-                $('.forinteractivedesigner_speech').hide();
-                $('#forartdirector').hide();
-                $('.forartdirector_speech').hide();
-                $('#fordropaquickword').hide();
-                $('.fordropaquickword_speech').hide();
-                $('#forapplyanintern').hide();
-                $('.forapplyanintern_speech').hide();
-                $('#for30to50').hide();
-                $('.for30to50_speech').hide();
-                $('#for50to75').hide();
-                $('.for50to75_speech').hide();
-                $('#for75to100').hide();
-                $('.for75to100_speech').hide();
-                $('#for100up').hide();
-                $('.for100up_speech').hide();
-                $('#for1mildoloars').hide();
-                $('.for1mildoloars_speech').hide();
-                $('#for15to30').hide();
-                $('.for15to30_speech').hide();
-                $('#for50up').hide();
-                $('.for50up_speech').hide();
-                $('#forwordonstreet').show();
-                $('.forwordonstreet_speech').show();
-            });
-            $('.30to50').on('click', function(){
-                $('#forcompletewebsite').hide();
-                $('.forcompletewebsite_speech').hide();
-                $('#forbranding').hide();
-                $('.forbranding_speech').hide();
-                $('#forbrandingweb').hide();
-                $('.forbrandingweb_speech').hide();
-                $('#forwebdesign').hide();
-                $('.forwebdesign_speech').hide();
-                $('#fordegitalcamaign').hide();
-                $('.fordegitalcamaign_speech').hide();
-                $('#for30to50').show();
-                $('.for30to50_speech').show();
-            });
-            $('.50to75').on('click', function(){
-                $('#forcompletewebsite').hide();
-                $('.forcompletewebsite_speech').hide();
-                $('#forwebdesign').hide();
-                $('.forwebdesign_speech').hide();
-                $('#forbrandingweb').hide();
-                $('.forbrandingweb_speech').hide();
-                $('#fordegitalcamaign').hide();
-                $('.fordegitalcamaign_speech').hide();
-                $('#for50to75').show();
-                $('.for50to75_speech').show();
-            });
-            $('.75to100').on('click', function(){
-                $('#forcompletewebsite').hide();
-                $('.forcompletewebsite_speech').hide();
-                $('#forbrandingweb').hide();
-                $('.forbrandingweb_speech').hide();
-                $('#fordegitalcamaign').hide();
-                $('.fordegitalcamaign_speech').hide();
-                $('#for75to100').show();
-                $('.for75to100_speech').show();
-            });
-            $('.100up').on('click', function(){
-                $('#forcompletewebsite').hide();
-                $('.forcompletewebsite_speech').hide();
-                $('#forbrandingweb').hide();
-                $('.forbrandingweb_speech').hide();
-                $('#fordegitalcamaign').hide();
-                $('.fordegitalcamaign_speech').hide();
-                $('#for100up').show();
-                $('.for100up_speech').show();
-            });
-            $('.1mildoloars').on('click', function(){
-                $('#forcompletewebsite').hide();
-                $('.forcompletewebsite_speech').hide();
-                $('#forbranding').hide();
-                $('.forbranding_speech').hide();
-                $('#forbrandingweb').hide();
-                $('.forbrandingweb_speech').hide();
-                $('#forwebdesign').hide();
-                $('.forwebdesign_speech').hide();
-                $('#fordegitalcamaign').hide();
-                $('.fordegitalcamaign_speech').hide();
-                $('#for1mildoloars').show();
-                $('.for1mildoloars_speech').show();
-            });
-            $('.15to30').on('click', function(){
-                $('#forwebdesign').hide();
-                $('.forwebdesign_speech').hide();
-                $('#forbranding').hide();
-                $('.forbranding_speech').hide();
-                $('#for15to30').show();
-                $('.for15to30_speech').show();
-            });
-            $('.50up').on('click', function(){
-                $('#forbranding').hide();
-                $('.forbranding_speech').hide();
-                $('#for50up').show();
-                $('.for50up_speech').show();
-            });
+            }, 7000);
+        }
+        $('#startaproject').on('click', function(){
+            let music = new Audio("http://localhost/tts/audio/1601034710.mp3");
+            music.play();
+            $('#scontainer').hide();
+            $('#forstartaproject').show();
+        });
+        $('#joinateam').on('click', function(){
+            let music = new Audio("http://localhost/tts/audio/1601035942.mp3");
+            music.play();
+            $('#scontainer').hide();
+            $('#forjoinateam').show();
+        });
+        $('#applyanintern').on('click', function(){
+            let music = new Audio("http://localhost/tts/audio/1601036487.mp3");
+            music.play();
+            $('#scontainer').hide();
+            $('#forapplyanintern').show();
+        });
+        $('#dropaquickword').on('click', function(){
+            let music = new Audio("http://localhost/tts/audio/1601036923.mp3");
+            music.play();
+            $('#scontainer').hide();
+            $('#fordropaquickword').show();
+        });
+        $('#completewebsite').on('click', function(){
+            let music = new Audio("http://localhost/tts/audio/1601037402.mp3");
+            music.play();
+            $('#scontainer').hide();
+            $('#forstartaproject').hide();
+            $('#forcompletewebsite').show();
+        });
+        $('#webdesign').on('click', function(){
+            let music = new Audio("http://localhost/tts/audio/1601038072.mp3");
+            music.play();
+            $('#scontainer').hide();
+            $('#forstartaproject').hide();
+            $('#forwebdesign').show();
+        });
+        $('#branding').on('click', function(){
+            let music = new Audio("http://localhost/tts/audio/1601038420.mp3");
+            music.play();
+            $('#scontainer').hide();
+            $('#forstartaproject').hide();
+            $('#forbranding').show();
+        });
+        $('#brandingweb').on('click', function(){
+            let music = new Audio("http://localhost/tts/audio/1601040061.mp3");
+            music.play();
+            $('#scontainer').hide();
+            $('#forstartaproject').hide();
+            $('#forbrandingweb').show();
+        });
+        $('#degitalcamaign').on('click', function(){
+            let music = new Audio("http://localhost/tts/audio/1601040459.mp3");
+            music.play();
+            $('#scontainer').hide();
+            $('#forstartaproject').hide();
+            $('#fordegitalcamaign').show();
+        }); 
+        $('#backenddeveloper').on('click', function(){
+            let music = new Audio("http://localhost/tts/audio/1601041100.mp3");
+            music.play();
+            $('#scontainer').hide();
+            $('#forjoinateam').hide();
+            $('#forbackenddeveloper').show();
+        });
+        $('#frontenddeveloper').on('click', function(){
+            let music = new Audio("http://localhost/tts/audio/1601041344.mp3");
+            music.play();
+            $('#scontainer').hide();
+            $('#forjoinateam').hide();
+            $('#forfrontenddeveloper').show();
+        });
+        $('#projectmanager').on('click', function(){
+            let music = new Audio("http://localhost/tts/audio/1601041978.mp3");
+            music.play();
+            $('#scontainer').hide();
+            $('#forjoinateam').hide();
+            $('#forprojectmanager').show();
+        });
+        $('#interactivedesigner').on('click', function(){
+            let music = new Audio("http://localhost/tts/audio/1601042314.mp3");
+            music.play();
+            $('#scontainer').hide();
+            $('#forjoinateam').hide();
+            $('#forinteractivedesigner').show();
+        });
+        $('#artdirector').on('click', function(){
+            let music = new Audio("http://localhost/tts/audio/1601041978.mp3");
+            music.play();
+            $('#scontainer').hide();
+            $('#forjoinateam').hide();
+            $('#forartdirector').show();
+        });
+        $('.awardwebsite').on('click', function(){
+            let music = new Audio("http://localhost/tts/audio/1601043179.mp3");
+            music.play();
+            $('#scontainer').hide();
+            $('#forbackenddeveloper').hide();
+            $('#forfrontenddeveloper').hide();
+            $('#forprojectmanager').hide();
+            $('#forinteractivedesigner').hide();
+            $('#forartdirector').hide();
+            $('#fordropaquickword').hide();
+            $('#forapplyanintern').hide();
+            $('#for30to50').hide();
+            $('#for50to75').hide();
+            $('#for75to100').hide();
+            $('#for100up').hide();
+            $('#for1mildoloars').hide();
+            $('#for15to30').hide();
+            $('#for50up').hide();
+            $('#forawardwebsite').show();
+        });
+        $('.projectwedid').on('click', function(){
+            let music = new Audio("http://localhost/tts/audio/1601285896.mp3");
+            music.play();
+            $('#scontainer').hide();
+            $('#forbackenddeveloper').hide();
+            $('#forfrontenddeveloper').hide();
+            $('#forprojectmanager').hide();
+            $('#forinteractivedesigner').hide();
+            $('#forartdirector').hide();
+            $('#fordropaquickword').hide();
+            $('#forapplyanintern').hide();
+            $('#for30to50').hide();
+            $('#for50to75').hide();
+            $('#for75to100').hide();
+            $('#for100up').hide();
+            $('#for1mildoloars').hide();
+            $('#for15to30').hide();
+            $('#for50up').hide();
+            $('#forprojectwedid').show();
+        });
+        $('.anartical').on('click', function(){
+            let music = new Audio("http://localhost/tts/audio/1601286670.mp3");
+            music.play();
+            $('#scontainer').hide();
+            $('#forbackenddeveloper').hide();
+            $('#forfrontenddeveloper').hide();
+            $('#forprojectmanager').hide();
+            $('#forinteractivedesigner').hide();
+            $('#forartdirector').hide();
+            $('#fordropaquickword').hide();
+            $('#forapplyanintern').hide();
+            $('#for30to50').hide();
+            $('#for50to75').hide();
+            $('#for75to100').hide();
+            $('#for100up').hide();
+            $('#for1mildoloars').hide();
+            $('#for15to30').hide();
+            $('#for50up').hide();
+            $('#foranartical').show();
+        });
+        $('.afriend').on('click', function(){
+            let music = new Audio("http://localhost/tts/audio/1601287175.mp3");
+            music.play();
+            $('#scontainer').hide();
+            $('#forbackenddeveloper').hide();
+            $('#forfrontenddeveloper').hide();
+            $('#forprojectmanager').hide();
+            $('#forinteractivedesigner').hide();
+            $('#forartdirector').hide();
+            $('#fordropaquickword').hide();
+            $('#forapplyanintern').hide();
+            $('#for30to50').hide();
+            $('#for50to75').hide();
+            $('#for75to100').hide();
+            $('#for100up').hide();
+            $('#for1mildoloars').hide();
+            $('#for15to30').hide();
+            $('#for50up').hide();
+            $('#forafriend').show();
+        });
+        $('.wordonstreet').on('click', function(){
+            let music = new Audio("http://localhost/tts/audio/1601287755.mp3");
+            music.play();
+            $('#scontainer').hide();
+            $('#forbackenddeveloper').hide();
+            $('#forfrontenddeveloper').hide();
+            $('#forprojectmanager').hide();
+            $('#forinteractivedesigner').hide();
+            $('#forartdirector').hide();
+            $('#fordropaquickword').hide();
+            $('#forapplyanintern').hide();
+            $('#for30to50').hide();
+            $('#for50to75').hide();
+            $('#for75to100').hide();
+            $('#for100up').hide();
+            $('#for1mildoloars').hide();
+            $('#for15to30').hide();
+            $('#for50up').hide();
+            $('#forwordonstreet').show();
+        });
+        $('.30to50').on('click', function(){
+            let music = new Audio("http://localhost/tts/audio/1601289592.mp3");
+            music.play();
+            $('#forcompletewebsite').hide();
+            $('#forbranding').hide();
+            $('#forbrandingweb').hide();
+            $('#forwebdesign').hide();
+            $('#fordegitalcamaign').hide();
+            $('#for30to50').show();
+        });
+        $('.50to75').on('click', function(){
+            let music = new Audio("http://localhost/tts/audio/1601289526.mp3");
+            music.play();
+            $('#forcompletewebsite').hide();
+            $('#forwebdesign').hide();
+            $('#forbrandingweb').hide();
+            $('#fordegitalcamaign').hide();
+            $('#for50to75').show();
+        });
+        $('.75to100').on('click', function(){
+            let music = new Audio("http://localhost/tts/audio/1601290725.mp3");
+            music.play();
+            $('#forcompletewebsite').hide();
+            $('#forbrandingweb').hide();
+            $('#fordegitalcamaign').hide();
+            $('#for75to100').show();
+        });
+        $('.100up').on('click', function(){
+            let music = new Audio("http://localhost/tts/audio/1601291948.mp3");
+            music.play();
+            $('#forcompletewebsite').hide();
+            $('#forbrandingweb').hide();
+            $('#fordegitalcamaign').hide();
+            $('#for100up').show();
+        });
+        $('.1mildoloars').on('click', function(){
+            let music = new Audio("http://localhost/tts/audio/1601292412.mp3");
+            music.play();
+            $('#forcompletewebsite').hide();
+            $('#forbranding').hide();
+            $('#forbrandingweb').hide();
+            $('#forwebdesign').hide();
+            $('#fordegitalcamaign').hide();
+            $('#for1mildoloars').show();
+        });
+        $('.15to30').on('click', function(){
+            let music = new Audio("http://localhost/tts/audio/1601293041.mp3");
+            music.play();
+            $('#forwebdesign').hide();
+            $('#forbranding').hide();
+            $('#for15to30').show();
+        });
+        $('.50up').on('click', function(){
+            let music = new Audio("http://localhost/tts/audio/1601294750.mp3");
+            music.play();
+            $('#forbranding').hide();
+            $('#for50up').show();
         });
     </script>
 </html>
